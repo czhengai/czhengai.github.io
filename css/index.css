@@ -229,7 +229,7 @@ figure.highlight {
 html {
   height: 100%;
   margin: 0;
-  font-size: 62.5%;
+  font-size: 60%;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
@@ -237,23 +237,23 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  color: #494e52;
-  font-size: 1.8em;
-  line-height: 1.5;
-  font-family: "Times New Roman", FangSong, STFangsong, sans-serif;
+  color: #222;
+  font-size: 1.1em;
+  line-height: 1.6;
+  font-family: "Times New Roman", KaiTi, FangSong, STFangsong, sans-serif;
   scroll-behavior: smooth;
 }
 a,
 span,
 .btn {
-  font-family: "Times New Roman", FangSong, STFangsong, sans-serif;
+  font-family: "Times New Roman", KaiTi, FangSong, STFangsong, sans-serif;
 }
 img {
   max-width: 100%;
 }
 blockquote {
   position: relative;
-  color: #999;
+  color: #222;
   font-weight: 400;
   background-color: #f7f7f7;
   border-left: 5px solid #777;
@@ -265,7 +265,7 @@ blockquote p {
 }
 #page_header {
   position: relative;
-  border-bottom: 1px solid #f2f3f3;
+  border-bottom: 1px solid #f7f7f7;
   -webkit-animation: intro 0.3s both;
   animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
@@ -289,7 +289,7 @@ blockquote p {
   display: block;
   margin: 0 1.6rem;
   padding: 0.8rem 0;
-  color: #7a8288;
+  color: #333;
   font-weight: 600;
   text-decoration: none;
   -webkit-transition: all 0.2s ease-in-out;
@@ -486,7 +486,7 @@ blockquote p {
   text-align: right;
 }
 .page article code {
-  font-family: "Times New Roman", FangSong, STFangsong, sans-serif;
+  font-family: "Times New Roman", KaiTi, FangSong, STFangsong, sans-serif;
   padding: 0.2rem 0.3rem;
   background: rgba(27,31,35,0.05);
   word-wrap: break-word;
@@ -546,7 +546,7 @@ blockquote p {
 }
 .author-discrip h3 {
   margin: 0px;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 .author-discrip .author-bio {
   font-size: 1.2rem;
